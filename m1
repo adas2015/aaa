@@ -1,4 +1,273 @@
-main(){
-hello
-print
-}
+https://github.com/espressif/esp-idf
+
+
+https://github.com/Nicholas3388/LuaNode
+
+https://pan.baidu.com/s/1i3YHhb0buYEt6IQVMntcuw                       提取码：2jok
+
+http://www.360doc.com/content/17/0802/23/43830060_676220530.shtml
+
+
+
+
+ESP32-D0WD
+
+ESP32-D0WDQ6
+
+ESP32-D2WD
+
+ESP32-PICO-D4
+
+ESP32-S0WD
+
+
+
+ESP32-SOLO-1
+
+ESP32-WROOM-32
+
+ESP32-WROOM-32D
+
+ESP32-WROOM-32U
+
+ESP32-WROVER
+
+ESP32-WROVER-B
+//////////////
+ESP32 开发板
+ESP32 DevKitC	
+ESP32 poco-kit-v3	
+ESP32-wrover-kit
+
+ESP32 模块
+ ESP32-WROOM-32D
+ ESP32-DEVKITC-32D-F
+
+
+
+如何为工业物联网应用选择并使用正确的 ESP32 Wi-Fi/蓝牙模块
+
+https://www.digikey.cn/zh/articles/how-to-select-and-use-the-right-esp32-wi-fi-bluetooth-module
+
+ESP32与物联网开发——目录
+https://zhuanlan.zhihu.com/p/101320359
+
+ESP32例程为C语言开发，并非Python/Arduino/AT指令开发，基于ESP-IDF_V4.2框架库，采用纯C语言开发，开发工具为Visual Studio Code
+
+
+
+Android(安卓)例程全部为原生Android开发，例程全部支持到SDK版本29  Android 10.0(Q) 开发工具为Andirod Studio 4.0
+
+
+
+PC源码例程为Visual Studio 2013开发，C++语言，基于MFC
+
+送的MQTT账号，仅用于同学们开发测试，大家不要用到实际产品上，不定期更换密码，会在QQ群公布
+
+如何启用 ESP-AT 以太网功能
+https://docs.espressif.com/projects/esp-at/zh_CN/latest/Compile_and_Develop/How_to_enable_ESP_AT_Ethernet.html
+
+ESP-WROOM-32模组入坑指南
+https://blog.csdn.net/zhuzhuzhu22/article/details/79158383
+
+
+ESP32 windows开发环境的搭建（官方方法)
+https://www.cnblogs.com/noticeable/p/7426749.html
+
+
+op -S -o 1 
+
+dhcp -E
+
+sta -C -s esp_ap1 -p cs13974884594
+
+ip -S -o 1 -i 192.168.1.109
+
+ip
+
+
+                  ESP32  SDK 开发环境的搭建
+https://blog.csdn.net/qq84395064/article/details/78032927/
+
+ESP32开发环境搭建
+https://blog.csdn.net/zhuyanshun/article/details/88532178
+
+ESP32 windows开发环境的搭建（官方方法)
+https://www.cnblogs.com/noticeable/p/7426749.html
+
+https://www.cnblogs.com/hongwans/p/9095317.html
+野路子学习esp32(八) GPIO 点亮LED@a.宏万
+
+
+
+https://blog.csdn.net/Mculover666/article/details/116305921
+ESP32-C3上手笔记 | 01 - ESP32 C3开发环境搭建（ESP-IDF）
+
+idf.py set-target esp32c3
+idf.py menuconfig
+idf.py build
+
+idf.py -p COM7 flash	
+
+idf.py -p PORT monitor
+idf.py -p COM7 monitor
+
+printenv  IDF_PATH
+
+make menuconfig
+
+sudo apt-get update
+sudo apt-get install git wget flex bison gperf python3 python3-pip python3-setuptools cmake ninja-build ccache libffi-dev libssl-dev dfu-util libusb-1.0-0
+
+
+mkdir -p ~/esp
+cd ~/esp
+wget https://dl.espressif.com/dl/esp-idf/releases/esp-idf-v4.3-beta3.zip
+
+sudo apt-get install unzip
+
+upzip esp-idf-v4.3-beta3.zip
+mv esp-idf-v4.3-beta3 esp-idf
+
+ sudo apt-get install python3-pip
+sudo -H pip3 install -U pip
+
+curl https://bootstrap.pypa.io/pip/3.5/get-pip.py -o get-pip.py
+python3.5 get-pip.py
+pip3 --version
+
+pip3 config set global.index-url https://pypi.python.org/simple/
+cd ~/esp/esp-idf
+export IDF_GITHUB_ASSETS="dl.espressif.com/github_assets"
+./install.sh
+
+vim ~/.bashrc
+alias get_idf='. $HOME/esp/esp-idf/export.sh'
+source ~/.bashrc
+
+
+get_idf
+
+Ubuntu16.04下pip3的安装以及配置国内源
+
+https://blog.csdn.net/qq_42881421/article/details/88070942
+
+
+Ubuntu系统下ESP32开发环境的搭建听语音
+https://jingyan.baidu.com/article/647f0115db77a17f2148a880.html
+
+
+sudo usermod -a -G dialout $USER
+
+idf.py -p /dev/ttyUSB0 monitor
+
+
+https://cloud.tencent.com/developer/article/1825738
+
+ESP32-C3 mqtt操作实践	
+
+sudo apt-add-repository ppa:mosquitto-dev/mosquitto-ppa
+
+
+https://cloud.tencent.com/developer/article/1825738
+ESP32-C3 mqtt操作实践
+
+mosquitto_sub -h 192.168.1.104 -t "test_mqtt" -v
+mosquitto_pub -t "test_mqtt" -h 192.168.1.104 -m "hello_mqtt"
+
+搭建ESP32-IDF开发环境
+
+https://www.e-learn.cn/topic/3836532
+安装串口工具
+sudo add-apt-repository ppa:h167297/hening
+sudo apt-get update
+sudo aptitude install serials
+构建系统（CMake 版）
+https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32/api-guides/build-system.html
+
+
+
+https://blog.csdn.net/AISc_O/article/details/118007204
+Ubuntu ESP32 VScode环境搭建
+
+正式安装前的环境配置命令
+
+sudo apt update && sudo apt upgrade -y
+
+
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 1
+
+
+sudo apt install -y python3-pip
+
+
+sudo update-alternatives --install /usr/bin/pip pip /usr/bin/pip3 1
+
+（这部分的软件安装，需要慢慢克服国内的网速等因素）
+sudo apt install -y git wget flex bison gperf python-setuptools cmake ninja-build ccache libffi-dev libssl-dev dfu-util
+
+
+Commad Line模式正式安装
+
+
+cd ~
+
+
+mkdir esp
+
+
+
+cd esp
+
+
+
+git clone --recursive https://github.com/espressif/esp-idf.git
+
+
+
+cd esp-idf
+
+
+
+. ./install.sh
+（如果这里安装不上，总是缺少文件，那么可以借助vscode的ESPRESSIF IDF插件，辅助下载配置,详情，见vscode 安装部分）
+
+
+
+pip install --upgrade pip
+
+
+
+. ./export.sh
+
+
+
+vim ~/.profile ----> Append next line to ~/.profile script:
+
+
+
+. $HOME/esp/esp-idf/export.sh
+
+sudo usermod -a -G dialout,tty $USER
+
+
+cd ~/Desktop
+cp -r $IDF_PATH/examples/get-started/hello_world .
+cd hello_world
+idf.py set-target esp32
+
+idf.py menuconfig
+
+idf.py build
+
+idf.py -p /dev/ttyUSB0 flash
+
+idf.py monitor -p /dev/ttyUSB0
+
+1.打开终端后，输入：sudo dpkg -i linuxidc.deb
+
+
+
+
+
+
